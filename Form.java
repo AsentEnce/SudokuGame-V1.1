@@ -16,7 +16,7 @@ public class Form {
     	Number singleNumber = new Number();
     	
     	for ( newForm.iterator = 0; newForm.iterator <= 80; newForm.iterator ++ ) {
-    		newForm.numbers[iterator] = singleNumber.newNum(newForm.iterator);
+    		newForm.numbers[newForm.iterator] = singleNumber.newNum(newForm.iterator);
     	}
     	
     	return newForm;
@@ -32,6 +32,6 @@ public class Form {
     		}
     	}
     	
-    	System.out.println("\r\nÊä³öÁËÒ»¸ö" + form.iterator / 9 + "³Ë" + form.iterator % 9 + "µÄ½á¹û¡£");
+    	System.out.println("\r\nÃŠÃ¤Â³Ã¶ÃÃ‹Ã’Â»Â¸Ã¶" + form.iterator / 9 + "Â³Ã‹" + form.iterator % 9 + "ÂµÃ„Â½Ã¡Â¹Ã»Â¡Â£");
     }
 }
